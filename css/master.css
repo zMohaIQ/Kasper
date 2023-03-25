@@ -218,14 +218,17 @@ header .container .logo img {
   margin-top: 30px;
 }
 
-.landing .fa-angle-right {
-  right: 0;
-  padding-right: 30px;
+.landing .arrows {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--main-color);
 }
 
 .landing .fa-angle-left {
-  left: 0;
-  padding-left: 30px;
+  margin-right: 80rem;
 }
 
 .landing .bullets {
